@@ -1,0 +1,97 @@
+/* IMPORT DA FONTE */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #1e2d3d;
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.logo-wrapper {
+  width: 160px;
+  height: 160px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.logo-wrapper img {
+  width: 120px;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 18px;
+  font-weight:600;
+  margin-bottom: 40px;
+}
+
+.descricao {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.botoes a {
+  background-color: #a2482e;
+  color: white;
+  text-decoration: none;
+  padding: 10px;              /* botão menor */
+  border-radius: 8px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: opacity 0.3s;
+}
+
+.botoes a:hover {
+  opacity: 0.85;
+}
+
+/* LOCALIZAÇÃO */
+.titulo-localizacao {
+  font-size: 22px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.subtitulo-localizacao {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+#map {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
