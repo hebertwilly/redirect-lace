@@ -39,6 +39,14 @@ lng: -49.08664956539818,
 endereco: 'Av. Antônio Justino Vieira, 420 - Jardim Planalto,',
 cidade: 'Itaí - SP',
 tel: '(14) 99655-5554'
+},
+{
+nome: 'Unidade Fartura',
+lat: -23.3904029,
+lng: -49.5143599,
+endereco: 'Rua Arthur de Andrade - Centro, 18870-000,',
+cidade: 'Fartura - SP',
+tel: '(14)3382-4032'
 }
 ];
 
